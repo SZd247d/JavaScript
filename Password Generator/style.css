@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: aliceblue;
+    background-color: #3b7e98;
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 10px 0 15px;
+    text-align: center;
+}
+
+p {
+    margin: 5px 0;
+}
+
+input[type='checkbox'] {
+    margin-right: 0;
+}
+
+.container {
+    background-color: #214655;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4), 0 -5px 8px rgba(0, 0, 0, 0.4), 5px 0px 8px rgba(0, 0, 0, 0.4), -5px 0px 8px rgba(0, 0, 0, 0.4);
+    width: 350px;
+}
+
+.result-container {
+    position: relative;
+    background-color: #17303a;
+    padding: 8px 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.result-container #result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+    position: absolute;
+    font-size: 20px;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn {
+    color: #f4f4f4;
+    background-color: #3b7e98;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #31687e;
+}
+
+.btn-large {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    display: block;
+    margin: 20px 0 10px;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+input[type=number] {
+    border-radius: 3px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    font-weight: 600;
+    background-color: #3b7e98;
+    padding: 0 2px;
+    color: #f4f4f4;
+}
